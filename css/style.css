@@ -5,6 +5,8 @@
    --header-nav-color:rgb(37, 34, 32);
    --dark-blue:rgb(0,55,103);
    --light-black-text:#231d19;
+   --orange:rgb(236,112,0);
+   --darker-orange:rgb(205,112,0);
 }
 
 body {
@@ -359,10 +361,11 @@ header {
 
 .main-disclaimer-1 {
    width: 100%;
-   height: 473px;
+   height: 500px;
    background-color: rgb(239,233,229);
    display: flex;
    flex-flow: column nowrap;
+   padding: 32px 0px 64px 0px;
 }
 
 .main-disclaimer-1-content {
@@ -402,7 +405,7 @@ header {
 }
 
 .disclaimer-button-style {
-   background-color: rgb(236,112,0);
+   background-color: var(--orange);
    font-weight: bold;
    color: white;
    border: none;
@@ -412,7 +415,7 @@ header {
 }
 
 .disclaimer-button-style:hover {
-   background-color: rgb(205,112,0);
+   background-color: var(--darker-orange);
 }
 
 /* Cards 3 */
@@ -425,3 +428,72 @@ header {
    flex-flow: column nowrap;
    padding: 32px 0px 64px ;
 }
+
+/* Open account */
+
+.main-account {
+   width: 100%;
+   height: 433px;
+   background-color: white;
+   display: flex;
+   flex-flow: column nowrap;
+   padding: 32px 0px 64px;
+}
+
+.main-account-container {
+   display: flex;
+   flex-flow: column nowrap;
+   padding: 32px 15px 64px ;
+}
+
+.main-account-content {
+   display: flex;
+   flex-flow: row nowrap;
+}
+
+.main-account-content-text {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: space-between;
+   width: 45%;
+}
+
+.main-account-content-text-item {
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   column-gap: 5%;
+   padding: 0 10px;
+   width: 100%;
+}
+
+.main-account-content-text-number {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   color:var(--darker-orange);
+   font-weight: bold;
+   font-size: 18px;
+   width: 50px;
+   height: 50px;
+   min-width: 50px;
+   border: solid var(--orange) 3px;
+   border-radius: 100%;
+}
+
+.main-account-content-text-list {
+   color:var(--light-black-text);
+   padding-right: 95px;
+}
+
+.main-account-content-photo {
+   display: flex;
+   justify-content: flex-end;
+   width: 55% ;
+}
+
+.main-account-content-photo img {
+   width: 90% ;
+}
+
