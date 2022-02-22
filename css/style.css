@@ -799,3 +799,102 @@ header {
 .doubt-p p {
    padding: 15px;
 }
+
+/* Footer */
+
+footer {
+   background: rgb(112,106,102);
+   width: 100%;
+}
+
+.footer-content {
+   width: 100%;
+   height: auto;
+   padding: 32px 32px 64px;
+   display: flex;
+   flex-flow: column nowrap;
+}
+
+.footer-title-content {
+   padding: 0 32px;
+}
+
+.footer-content-main {
+   display: flex;
+   flex-flow: row nowrap;
+   border-bottom:  white 1px ;
+   border-style: groove;
+   justify-content: space-between;
+   padding-bottom: 32px;
+}
+
+.footer-title {
+   display: flex;
+   flex-flow: column nowrap;
+   align-content: center;
+   border-bottom: solid white .5px;
+   width: 100%;
+   padding: 25px;
+   color: white;
+}
+
+.footer-list {
+   line-height: 30px;
+   color: white;
+   padding-bottom: 32px;
+}
+
+.footer-divider {
+   display: flex;
+   flex-flow: column nowrap;
+   align-content : space-between;
+}
+
+.footer-list li:first-of-type{
+   font-weight: bold;
+   line-height: 35px;
+}
+
+.footer-list li {
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer-icons-list img {
+   width: 50px;
+   height: 50px;
+   padding: 15px;
+}
+
+.footer-content-bottom {
+   display: flex;
+
+}
+
+.footer-content-bottom-left {
+   display: flex;
+   align-items: center;
+   color: white;
+   padding-top: 32px;
+   width: 40%;
+}
+
+.footer-content-bottom-left img {
+   width: 20px;
+}
+
+.footer-content-bottom-right {
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: baseline;
+   justify-content: center;
+   padding-top: 32px;
+   color: white;
+   line-height: 30px;
+}
+
+.bottom-mini-letter {
+   font-size: 12px;
+}
