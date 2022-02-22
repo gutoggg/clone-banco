@@ -4,6 +4,7 @@
    --header-nav-hover-out:solid transparent 4px;
    --header-nav-color:rgb(37, 34, 32);
    --dark-blue:rgb(0,55,103);
+   --dark-blue-opacity:rgba(0,55,103,.6);
    --light-black-text:#231d19;
    --orange:rgb(236,112,0);
    --darker-orange:rgb(205,112,0);
@@ -33,16 +34,19 @@ header {
 }
 
 .container-1280 {
+   width: 100%;
    max-width: 1280px;
    margin: 0 auto;
 }
 
 .container-1140 {
+   width: 100%;
    max-width: 1140px;
    margin: 0 auto;
 }
 
 .container-760 {
+   width: 100%;
    max-width: 760px;
    margin: 0 auto;
 }
@@ -341,7 +345,6 @@ header {
    height: 100%;
    align-content: space-between;
    justify-content: space-between;
-   
 }
 
 .card-shadow {
@@ -355,6 +358,7 @@ header {
 .subtitle {
    font-weight: 300;
    font-size: 20px;
+   color: var(--dark-blue);
 }
 
 /* Main Disclaimer 1 */
@@ -365,7 +369,6 @@ header {
    background-color: rgb(239,233,229);
    display: flex;
    flex-flow: column nowrap;
-   padding: 32px 0px 64px 0px;
 }
 
 .main-disclaimer-1-content {
@@ -433,17 +436,16 @@ header {
 
 .main-account {
    width: 100%;
-   height: 433px;
+   height: 520px;
    background-color: white;
    display: flex;
    flex-flow: column nowrap;
-   padding: 32px 0px 64px;
 }
 
 .main-account-container {
    display: flex;
    flex-flow: column nowrap;
-   padding: 32px 15px 64px ;
+   padding: 32px 15px 64px;
 }
 
 .main-account-content {
@@ -497,3 +499,163 @@ header {
    width: 90% ;
 }
 
+/* Solution */
+
+.main-solution {
+   width: 100%;
+   height: 756px;
+   background-color: rgb(239,233,229);
+   display: flex;
+   flex-flow: column nowrap;
+   padding: 32px 0px 64px;
+}
+
+.main-solution-content{
+   width: 100%;
+   height: 100%;
+}
+
+.main-solution-content-title {
+   display: flex;
+   flex-flow: column;
+   align-content: flex-start;
+   margin-bottom: 64px;
+}
+
+.main-solution-content-maintitle{
+   color:var(--dark-blue);
+   font-size: 32px;
+   font-weight: bold;
+   margin-bottom: 40px;
+}
+
+.main-solution-content-cards {
+   display: flex;
+   flex-flow: row nowrap;
+   column-gap: 25px;
+   justify-content: space-between;
+   align-content: center;
+}
+
+.overlay{
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content:flex-end ;
+   width: 100%;
+   height: 100%; 
+   padding: 20px;
+   background: linear-gradient(rgba(0,0,0,.6) 0%, rgba(0,0,0,.6) 50%, var( --dark-blue) 50%, var( --dark-blue) 100%);
+   background-size: 100% 200%;
+   animation: background-hover-out .7s ease forwards;
+   animation-iteration-count: 1;
+   background-position:0% 0%;
+}
+
+@keyframes background-hover-in { 
+   to{
+      background-position:0% 50%;
+   }
+}
+
+@keyframes background-hover-out { 
+   from{
+      background-position:0% 50%;
+   }
+   to {
+      background-position:0% 0%;
+   }
+}
+
+.overlay:hover{
+   animation: background-hover-in .5s ease forwards;
+   animation-iteration-count: 1;
+}
+
+.main-solution-content-cards-left{
+   width: 540px;
+   height: 480px;
+   background-image: url("../img/blog-itau-empresas.webp");
+}
+
+.main-solution-content-cards-right{
+   width: 50%;
+   height: 100%;
+}
+
+.mosaic-photo{
+   position: relative;
+   display: flex;
+   flex-flow: column nowrap;
+   align-content: space-around;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+
+.mosaic-icon{
+   width: 50px;
+   height: 50px;
+}
+
+.mosaic-title{
+   font-size: 32px;
+   line-height: 44px;
+   font-weight: 700;
+   color: white;
+}
+
+.mosaic-subtitle {
+   font-size: 24px;
+   font-weight: 700;
+   color: white;
+}
+
+.mosaic-content {
+   width: 100%;
+   height: 100%;
+}
+
+.main-solution-content-cards-right{
+   display: flex;
+   flex-flow: column nowrap;
+   row-gap: 25px;
+   width: 50%;
+   height: auto;
+}
+
+.main-solution-content-cards-right-top {
+   width: 100%;
+   height: 50%;
+}
+
+.main-solution-content-cards-right-bottom {
+   display: flex;
+   flex-flow: row nowrap;
+   width: 100%;
+   height: 50%;
+   column-gap: 25px;
+}
+
+.main-solution-content-cards-right-bottom-mosaicbox {
+   width: 50%;
+   height: 100%;
+}
+
+.half-hover-solution {
+   background: linear-gradient(rgba(0,0,0,.6) 0%, rgba(0,0,0,.6) 33.3333%, var( --dark-blue) 33.3333%, var( --dark-blue) 100%);
+   background-size: 100% 300%;
+}
+
+.main-solution-content-cards-right-top {
+   background-image: url(../img/abrir-conta-mei.webp);
+}
+
+.mosaic1 {
+   background-image: url(../img/podcast-itau.webp);
+}
+
+.mosaic2 {
+   background-image: url(../img/mulher-empreendedora.webp);
+}
+
+/* Disclaimer 2 */
