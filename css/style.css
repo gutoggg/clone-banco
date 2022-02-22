@@ -726,3 +726,76 @@ header {
    width: auto;
    height: auto;
 }
+
+/* doubts */
+
+.main-doubts {
+   width: 100%;
+   height: auto;
+   background-color: white;
+   display: flex;
+   flex-flow: column nowrap;
+   padding: 64px 15px;
+}
+
+.main-doubts-content-maintitle {
+   font-weight: bold;
+   font-size: 28px;
+   margin-bottom: 1.5em;
+}
+
+.main-doubts-content-doubtbox {
+   display:flex;
+   flex-flow: column nowrap;
+   justify-content: space-between;
+   align-items: flex-start;
+   border-top: solid #ccc .5px;
+   transition-duration: .5s ;
+}
+
+.doubt-content {
+   display:flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   align-items: flex-start;
+   transition-duration: .5s ;
+   width: 100%;
+   padding: 25px 0;
+}
+
+.doubt-content {
+   font-size: 19px;
+   font-weight: 400;
+   letter-spacing: -.5px;
+}
+
+.main-doubts-content-doubtbox:hover{
+   padding-left: 15px;
+   border-left: solid var(--dark-blue) 6px;
+   transition-duration: .5s ;
+}
+
+.lastbox {
+   border-bottom: solid #ccc .5px;
+}
+
+.select-arrow {
+   width: 30px;
+   height: 30px;
+   transition-duration: .5s ;
+}
+
+.select-arrow-rotate {
+   transform: rotate(180deg);
+   transition-duration: .5s ;
+}
+
+.doubt-p {
+   display: flex;
+   flex-flow: column nowrap;
+   transition-duration: .5s ;
+}
+
+.doubt-p p {
+   padding: 15px;
+}
