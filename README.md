@@ -1,4 +1,4 @@
-# Atividade de clone da página destinado à empresas do Itaú 
+# clone-itaú
 
 ### 🚀 Motivação
 
