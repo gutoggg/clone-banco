@@ -1,4 +1,4 @@
-# clone-itaú
+# clone-banco
 
 ### 🚀 Motivação
 
@@ -6,7 +6,7 @@ Este desafio faz parte da formação de desenvolvedores Fullstack fomentada pelo
 
 ### 📋 Sobre o desafio
 
-Foi-nos proposto duas opções de páginas: [Itaú para você](https://www.itau.com.br/) ou [Itaú para Clientes](https://www.itau.com.br/empresas). 
+Foi-nos proposto duas opções de páginas: banco para vocêou banco para Clientes. 
 Teríamos que optar por uma delas e contruir um clone o mais próximo da original possível.
 No meu caso, optei por clonar a página relacionada às empresas por achar que poderia treinar melhor alguns conceitos de flexbox que vinha estudando nas últimas semanas.
 
@@ -18,4 +18,4 @@ No meu caso, optei por clonar a página relacionada às empresas por achar que p
 
 ### 🛠️ Deploy
 
-[![image](https://user-images.githubusercontent.com/72248716/155884778-2b4a0d89-c4bf-4812-b00e-c2251dfa57cf.png)](https://gutoggg.github.io/clone-itau/)
+[Deploy](https://gutoggg.github.io/clone-itau/)
