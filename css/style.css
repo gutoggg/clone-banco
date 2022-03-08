@@ -213,7 +213,7 @@ header {
    display: flex;
    width: 100%;
    height: 100%;
-   background-image: url("../img/banner-1.webp");
+   background-image: url("../img/placeholder.png");
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
@@ -574,7 +574,7 @@ header {
 .main-solution-content-cards-left{
    width: 540px;
    height: 480px;
-   background-image: url("../img/blog-itau-empresas.webp");
+   background-image: url("../img/placeholder.png");
 }
 
 .main-solution-content-cards-right{
@@ -647,15 +647,15 @@ header {
 }
 
 .main-solution-content-cards-right-top {
-   background-image: url(../img/abrir-conta-mei.webp);
+   background-image: url(../img/placeholder.png);
 }
 
 .mosaic1 {
-   background-image: url(../img/podcast-itau.webp);
+   background-image: url(../img/placeholder.png);
 }
 
 .mosaic2 {
-   background-image: url(../img/mulher-empreendedora.webp);
+   background-image: url(../img/placeholder.png);
 }
 
 /* Disclaimer 2 */

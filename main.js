@@ -2,23 +2,13 @@
 
   const doubtText = [
     [
-      "Para abrir uma conta você precisará dos seguintes documentos:",
-      "- comprovante de Inscrição e de Situação Cadastral no CNPJ (emitido em até 90 dias na página da Receita Federal: www.receita.fazenda.gov.br);",
-      "- documento de constituição da empresa registrado pelo órgão competente;",
-      "- comprovante de endereço da empresa atualizado (emitido em até 180 dias);",
-      "- documento que autorize representantes legais da empresa a abrir conta;",
-      "- procuração registrada em cartório, se houver procurador.",
-      "Já para os representantes legais, sócios e procuradores, os documentos necessários são:",
-      "- documento de identificação com foto;",
-      "- comprovante de inscrição do CPF;",
-      "- comprovante de endereço atualizado."
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat blandit velit, sit amet faucibus lorem. Etiam tristique rhoncus risus, vitae vehicula nunc. Sed lectus enim, rhoncus id neque vel, venenatis vehicula nisl. Phasellus vulputate elit et lorem vestibulum, ut condimentum ante facilisis. In faucibus pretium vestibulum. Mauris pulvinar gravida nibh, ac sollicitudin ipsum tempus sed. Fusce placerat nibh turpis, id facilisis est ultrices sit amet. Praesent neque enim, fringilla a eros vitae, tempor cursus quam. Mauris ac nunc at orci facilisis aliquet vitae in lacus. Vivamus at lectus dolor. Nam placerat ipsum sed orci vulputate, at condimentum nunc fermentum. Nunc ac felis pellentesque, fermentum justo eget, tristique felis. Pellentesque efficitur urna vel interdum malesuada. In non felis eu justo mollis consequat suscipit viverra sapien. Fusce euismod nunc ut justo consectetur, et ultricies enim placerat."
     ],
     [
-      "Aguarde nosso contato com as instruções para os próximos passos ou vá até qualquer agência Itaú com os documentos necessários"
+      "Donec eu eros justo. Praesent in mi vel ligula sagittis hendrerit. Nulla facilisi. Vestibulum dictum ac tellus quis convallis. Nullam consectetur lorem eget ullamcorper condimentum. Nam a euismod arcu, et malesuada purus. Nunc sed aliquam augue. Proin sit amet maximus arcu. Maecenas dignissim sapien eget auctor maximus. Praesent tempor consequat est eget mattis. Donec eget orci felis. Proin maximus tincidunt lacus, quis scelerisque enim pretium nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus interdum venenatis imperdiet."
     ],
     [
-      "O Plano Adapt é o plano de serviços da conta corrente Itaú Empresas. Com ele, você economiza nas tarifas bancárias em relação ao uso de serviços de forma avulsa. Nós temos 4 planos disponíveis e você pode escolher o que faz mais sentido para as necessidades do seu negócio.",
-      "Além disso, você conta com alguns serviços ilimitados inclusos, pode acompanhar o quanto já usou do plano pela internet e pode conseguir até mesmo a isenção da mensalidade do plano pelo nosso programa de bônus por relacionamento de acordo com seu faturamento com vendas na maquininha Rede e/ou o volume de investimentos aplicados aqui no Itaú Empresas."
+      "Etiam tempus viverra tellus vestibulum imperdiet. Donec aliquet nisl vel odio dictum, nec scelerisque odio gravida. Ut lectus purus, interdum eu tortor vel, euismod blandit ante. Pellentesque congue a massa viverra ullamcorper. Sed bibendum efficitur dignissim. Morbi finibus erat non feugiat maximus. Nullam scelerisque diam ac ultrices consectetur. Nunc ac mollis dolor, in ultricies odio. Morbi sit amet tortor magna. Sed varius neque non pharetra luctus. Sed eget massa risus. Proin tristique mi quam, et convallis diam sodales a. Vestibulum quis laoreet elit. Nulla in iaculis mi, a sodales justo. Curabitur gravida dapibus libero, sit amet euismod enim."
     ]
   ]
 
